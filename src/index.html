@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body class="bg-secondary font-mons sm:hidden">
+    <!-- Navbar Section -->
+    <nav>
+        <div class="nav-container bg-primary container mx-auto px-3 py-2 w-full">
+            <div class="flex justify-between items-center">
+                <div class="Logo flex items-center gap-2 text-white">
+                    <i class="fa-solid fa-building text-3xl"></i>
+                    <h1 class="font-semibold">Hotel <br> Impian</h1>
+                </div>
+                <!-- Hamburger Menu -->
+                 <div class="hamburger-menu text-3xl text-white p-2" id="hamburger-menu">
+                    <i class="fa-solid fa-bars" id="x"></i>
+                 </div>
+                 <div class="navbar-menu absolute top-14 left-48 hidden" id="navbar-menu">
+                    <ul class="flex flex-col bg-secondary w-[190px] py-3 px-2 rounded-md font-medium gap-3">
+                        <li><a href="#">Beranda</a></li>
+                        <li><a href="#">Kamar</a></li>
+                        <li><a href="#">Fasilitas</a></li>
+                        <li><a href="#">Tentang Kami</a></li>
+                        <li><a href="#">Kontak</a></li>
+                    </ul>
+                 </div>
+            </div>
+        </div>
+    </nav>
+     <!-- Navbar Section End -->
+
+     <!-- Hero Section -->
+      <main class="bg-primary">
+        <div class="container mx-auto px-3 py-2">
+            <div class="content mt-12 text-white flex flex-col items-center">
+                <h1 class="text-4xl text-center font-bold mb-5">Selamat Datang di HotelImpian - Tempat Kemewahan dan Kenyamanan Bersatu</h1>
+                <span class="font-normal text-xl text-center mb-5">Nikmati pengalaman menginap yang tak terlupakan di jantung kota dengan fasilitas kelas dunia dan layanan istimewa</span>
+                <button class="p-3 bg-secondary text-slate-700 rounded-md mb-5 shadow-lg">Jelajahi Kamar Kami</button>
+            </div>
+            <div class="image mb-20 shadow-lg">
+                <img src="/src/assets/pic2.jpg" alt="" class="rounded-lg">
+            </div>
+        </div>
+      </main>
+      <!-- Hero Section End -->
+
+      <!-- Room Section -->
+       <main>
+        <div class="container mx-auto px-3 py-2">
+            <div class="cotent mt-16 ">
+                <h1 class="text-4xl font-bold mb-7">Temukan Surga dan Kenyamanan di Hotal Impian</h1>
+                <p class="text-left text-gray-600 font-medium mb-7">Manjakan diri anda dengan pengalaman menginap yang luar biasa di hotel bintang lima kami. Fasilitas Premium dan pelayanan sempurna menanti anda.</p>
+                <button class="p-3 bg-primary rounded-md text-slate-800 mb-5 shadow-lg">Pesan Sekarang</button>
+            </div>
+            <div class="image mb-20 shadow-lg">
+                <img src="assets/pic1.jpg" alt="" class="rounded-lg">
+            </div>
+        </div>
+       </main>
+       <!-- Room Section End -->
+
+       <!-- Card Section -->
+        <main>
+            <div class="container mx-auto px-3 py-2 mb-20">
+                <div class="content">
+                    <h1 class="text-4xl text-center font-bold mb-7">Keuntungan Menginap Di Hotel Impian</h1>
+                    <div class="cards-container bg-primary w-[80%] mx-auto rounded-lg mb-5">
+                        <div class="cards flex flex-col justify-center items-center gap-y-6 p-4">
+                            <i class="fa-regular fa-circle-check text-6xl"></i>
+                            <h2 class="text-2xl font-bold">Fasilitas Premium</h2>
+                            <p class="text-center text-gray-900">Nikmati kolam renang, spa, dan pusat kebugaran kelas dunia yang tersedia untuk semua tamu kami</p>
+                        </div>
+                    </div>
+                    <div class="cards-container bg-primary w-[80%] mx-auto rounded-lg mb-5">
+                        <div class="cards flex flex-col justify-center items-center gap-y-6 p-4">
+                            <i class="fa-regular fa-circle-check text-6xl"></i>
+                            <h2 class="text-2xl font-bold">Lokasi Strategis</h2>
+                            <p class="text-center text-gray-900">Terletak di jantung kota, Hotel Impian memberikan akses mudah ke tempat-tempat wisata utama dan pusat perbelanjaan</p>
+                        </div>
+                    </div>
+                    <div class="cards-container bg-primary w-[80%] mx-auto rounded-lg">
+                        <div class="cards flex flex-col justify-center items-center gap-y-6 p-4">
+                            <i class="fa-regular fa-circle-check text-6xl"></i>
+                            <h2 class="text-2xl font-bold">Pelayanan Istimewa</h2>
+                            <p class="text-center text-gray-900">Tim kami yang ramah dan profesional siap melayanan anda 24/7 untuk memastikan pengalaman menginap yang tak terlupakan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Card Section End -->
+
+        <!-- Breakfast Section -->
+         <main>
+            <div class="container mx-auto px-3 py-2">
+                <div class="content mb-7">
+                    <h1 class="text-4xl font-bold text-left mb-7">Awali hari anda dengan Sarapan Istimewa</h1>
+                    <p class="text-gray-800 text-left mb-7">Nikmati berbagai pilihan sarapan yang lezat yang disajikan dengan bahan-bahan segar dan berkualitas tinggi di restoran kami</p>
+                    <button class="p-3 bg-primary rounded-md text-slate-800 shadow-lg">Jelajahi Menu Sarapan</button>
+                </div>
+                <div class="image mb-20">
+                    <img src="/src/assets/pic3.jpg" alt="" class="rounded-lg">
+                </div>
+            </div>
+         </main>
+         <!-- Breakfast Section End -->
+
+         <!-- NewsLetter Section -->
+          <main class="bg-primary">
+            <div class="container mx-auto px-3 py-2">
+                <div class="content">
+                    <h1 class="text-4xl font-bold text-center mt-5 mb-7">Jadilah yang Pertama Mengetahui Penawaran Eksklusif Kami</h1>
+                    <p class="text-center text-gray-800 text-sm mb-7">Berlangganan newsletter kami untuk mendapatkan informasi terbaru tentang promo spesial, acara, dan berita menarik dari Hotel Impian</p>
+                    <div class="input-button flex flex-col justify-center items-center mb-7">
+                        <input required type="text" placeholder="Masukkan Email Anda" class="p-4 rounded-lg bg-secondary">
+                        <button class="mt-5 p-3 rounded-lg shadow-lg bg-secondary text-gray-800">Langganan Sekarang</button>
+                    </div>
+                </div>
+            </div>
+          </main>
+          <!-- NewsLetter Section End -->
+
+          <!-- Footer Section -->
+           <footer class="mt-7 p-5">
+            <div class="container mx-auto px-3 py-2">
+                <div class="first-content mb-7">
+                    <div class="flex flex-col gap-y-3">
+                        <div class="Logo flex items-center gap-2">
+                            <i class="fa-solid fa-building text-3xl"></i>
+                            <h1 class="font-semibold">Hotel <br> Impian</h1>
+                        </div>
+                        <div class="award">
+                            <p class="text-gray-700">2022 Award Winning Hotel</p>
+                        </div>
+                        <div class="sosmed flex items-center text-4xl gap-x-3">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="second-content">
+                    <div class="flex items-center justify-between">
+                        <div class="flex flex-col">
+                            <p class="font-bold">Products</p>
+                            <div class="mt-3 flex flex-col space-y-3 text-gray-700">
+                            <span>Bathroom</span>
+                            <span>Bedroom</span>
+                            <span>Living Room</span>
+                            <span>Kitchen</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-col">
+                            <p class="font-bold">Contact</p>
+                            <div class="mt-3 flex flex-col space-y-3 text-gray-700">
+                            <span>About</span>
+                            <span>Teams</span>
+                            <span>Profile</span>
+                            <span>FAQ</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-col">
+                            <p class="font-bold">Legals</p>
+                            <div class="mt-3 flex flex-col space-y-3 text-gray-700">
+                            <span>Privacy</span>
+                            <span>Disclaimer</span>
+                            <span>Terms</span>
+                            <span>Company</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           </footer>
+           <!-- Footer Section End -->
+
+     <script src="/src/script.js"></script>
+</body>
+</html>
